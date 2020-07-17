@@ -1,0 +1,167 @@
+/* /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 62.5%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+div {
+	display: inline;
+}
+
+#box {
+	background-color: #003996b7;
+	padding: 10px 10px;
+	margin: 0 10%;
+	font-size: 1.25rem;
+}
+
+.buttons-top {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	margin: 5% 10%;
+}
+
+#head {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	text-align: center;
+}
+
+#button1 {
+    background-color: #003996;
+    color: white;
+	border: none;
+	border-radius: 12px;
+	padding: 1rem 2rem;
+}
+
+#button2 {
+    background-color: #FFD600;
+    color: black;
+	border: none;
+	border-radius: 12px;
+	padding: 1rem 2rem;
+}
+
+#button3 {
+    background-color: #d60c38;
+	border: none;
+	border-radius: 12px;
+	padding: 1rem 2rem;
+}
+
+a {
+	font-family: 'Permanent Marker';
+	font-size: 1rem;
+	text-decoration: none;
+	color: white;
+}
+
+#round-photo {
+	border-radius: 55%;
+	height: 15rem;
+	width: 15rem;
+	float: left;
+	margin-left: 15%;
+	/* margin-bottom: 20%; */
+}
+
+span:first-child {
+    font-family: "permanent marker";
+    font-size: 3.5rem;
+	display: inline-block;
+}
+
+span {
+	font-family: Raleway;
+	text-align: center;
+	font-size: 2rem;
+}
+
+p {
+	font-family: 'Varela Round';
+	text-align: center;
+	margin: 5% 25%;
+}
+
+.center {
+	display: block;
+    margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: 300px;
+	width: 300px;
+}
+
+.center:nth-child(2) {
+	border-radius: 50%;
+}
+
+#bottom-photo {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 100%;
+	max-height: 20rem;
+}
+
+footer {
+	background-color: #003996;
+	height: 10rem;	
+}
+
+.buttons-bottom {
+	background-color: #003996;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	padding: 5% 5%;
+}
